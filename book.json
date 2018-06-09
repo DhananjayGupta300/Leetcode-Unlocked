@@ -1,6 +1,6 @@
 {
-    "author": "Tian Cao <tiancao@cs.unc.edu>",
-    "description": "Leetcode Locked",
+    "author": "Dhananjay Gupta <dgupta25@uic.edu>",
+    "description": "Leetcode UnLocked",
     "extension": null,
     "generator": "site",
     "isbn": null,
@@ -13,7 +13,7 @@
             "weibo": null
         },
         "sidebar": {
-            "Tian Cao's Website": "https://tiancao.me"
+            "Dhananjay Gupta's Website": "https://dgupta.us"
         }
     },
     "output": null,
@@ -31,6 +31,6 @@
         "paperSize": "a4"
     },
     "plugins": [],
-    "title": "Leetcode Locked",
+    "title": "Leetcode UnLocked",
     "variables": {}
 }
