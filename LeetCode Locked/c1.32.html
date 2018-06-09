@@ -1,0 +1,1041 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Number of Islands II | Leetcode Locked</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.4.3">
+        <meta name="author" content="Tian Cao &lt;tiancao@cs.unc.edu&gt;">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+    
+        <link rel="stylesheet" href="../styles/website.css">
+    
+
+        
+    
+    
+    <link rel="next" href="../LeetCode Locked/c1.33.html" />
+    
+    
+    <link rel="prev" href="../LeetCode Locked/c1.31.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="1.35" data-basepath=".." data-revision="Sat Mar 05 2016 00:25:37 GMT-0500 (EST)">
+    
+
+<div class="book-summary">
+    <div class="book-search" role="search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+                
+                <li>
+                    <a href="https://tiancao.me" target="blank" class="custom-link">Tian Cao&#39;s Website</a>
+                </li>
+            
+            
+
+            
+            <li class="divider"></li>
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="SUMMARY.html">
+            
+            <span><b>1.</b> Introduction</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="LeetCode Locked/c1.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Reverse Words in a String II
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="LeetCode Locked/c1.1.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Factor Combinations
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="LeetCode Locked/c1.2.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Two Sum III – Data structure design
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="LeetCode Locked/c1.3.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Read N Characters Given Read4 I, II
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="LeetCode Locked/c1.4.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Shortest Word Distance I, II, III
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="LeetCode Locked/c1.5.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        Strobogrammatic Number I, II, III
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="LeetCode Locked/c1.6.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        Meeting Rooms I, II
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="LeetCode Locked/c1.7.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        Longest Substring with At Most Two Distinct Characters
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="LeetCode Locked/c1.8.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        Missing Ranges
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="LeetCode Locked/c1.9.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.9.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.10.</b>
+                        
+                        One Edit Distance
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="LeetCode Locked/c1.10.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.11.</b>
+                        
+                        Flatten 2D Vector
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="LeetCode Locked/c1.11.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.12.</b>
+                        
+                        Group Shifted Strings
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="LeetCode Locked/c1.12.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.12.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.13.</b>
+                        
+                        Count Univalue Subtrees
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="LeetCode Locked/c1.13.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.13.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.14.</b>
+                        
+                        Binary Tree Upside Down
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="LeetCode Locked/c1.14.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.14.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.15.</b>
+                        
+                        Verify preorder sequence of Binary Search Tree
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="LeetCode Locked/c1.15.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.15.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.16.</b>
+                        
+                        Paint House I, II
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="LeetCode Locked/c1.16.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.16.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.17.</b>
+                        
+                        3Sum Smaller
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="LeetCode Locked/c1.17.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.17.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.18.</b>
+                        
+                        Graph Valid Tree
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="LeetCode Locked/c1.18.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.18.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.19.</b>
+                        
+                        Palindrome Permutation I, II
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="LeetCode Locked/c1.19.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.19.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.20.</b>
+                        
+                        Alien Dictonary
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="LeetCode Locked/c1.20.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.20.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.21.</b>
+                        
+                        Closest Binary Search Tree Value I, II
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="LeetCode Locked/c1.21.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.21.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.22.</b>
+                        
+                        Encode and Decode Strings
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="LeetCode Locked/c1.22.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.22.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.23.</b>
+                        
+                        Find the Celebrity
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="LeetCode Locked/c1.42.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.42.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.24.</b>
+                        
+                        Wiggle Sort
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="LeetCode Locked/c1.43.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.43.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.25.</b>
+                        
+                        Zigzag Iterator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="LeetCode Locked/c1.23.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.23.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.26.</b>
+                        
+                        Paint Fence
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="LeetCode Locked/c1.24.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.24.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.27.</b>
+                        
+                        Walls and Gates
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="LeetCode Locked/c1.25.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.25.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.28.</b>
+                        
+                        Inorder Successor
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="LeetCode Locked/c1.26.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.26.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.29.</b>
+                        
+                        Unique Word Abbreviation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="LeetCode Locked/c1.27.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.27.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.30.</b>
+                        
+                        Word Pattern II
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="LeetCode Locked/c1.28.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.28.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.31.</b>
+                        
+                        Flip Game I, II
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="LeetCode Locked/c1.29.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.29.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.32.</b>
+                        
+                        Best Meeting Point
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="LeetCode Locked/c1.30.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.30.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.33.</b>
+                        
+                        Binary Tree Longest Consecutive Sequence
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="LeetCode Locked/c1.31.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.31.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.34.</b>
+                        
+                        Smallest Rectangle Enclosing Black Pixels
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.35" data-path="LeetCode Locked/c1.32.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.32.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.35.</b>
+                        
+                        Number of Islands II
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="LeetCode Locked/c1.33.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.33.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.36.</b>
+                        
+                        Range Sum Query 2D - Mutable
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="LeetCode Locked/c1.34.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.34.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.37.</b>
+                        
+                        Sparse Matrix Multiplication
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="LeetCode Locked/c1.35.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.35.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.38.</b>
+                        
+                        Binary Tree Vertical Order Traversal
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="LeetCode Locked/c1.36.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.36.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.39.</b>
+                        
+                        Shortest Distance from All Buildings
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="LeetCode Locked/c1.37.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.37.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.40.</b>
+                        
+                        Generalized Abbreviation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41" data-path="LeetCode Locked/c1.38.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.38.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.41.</b>
+                        
+                        Number of Connected Components in an Undirected Graph
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="LeetCode Locked/c1.40.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.40.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.42.</b>
+                        
+                        Maximum Size Subarray Sum Equals K
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="LeetCode Locked/c1.41.html">
+            
+                
+                    <a href="../LeetCode Locked/c1.41.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.43.</b>
+                        
+                        Largest BST Subtree
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Leetcode Locked</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="number-of-islands-ii">Number of Islands II</h2>
+<blockquote>
+<p><strong>Question</strong></p>
+</blockquote>
+<p>A 2d grid map of m rows and n columns is initially filled with water. We may perform an addLand operation which turns the water at position <code>(row, col)</code> into a land. Given a list of positions to operate, count the number of islands after each addLand operation. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.</p>
+<p><strong>Example</strong>
+Given <code>m = 3, n = 3</code>, <code>positions = [[0,0], [0,1], [1,2], [2,1]]</code>.
+Initially, the 2d grid grid is filled with water. (Assume 0 represents water and 1 represents land).</p>
+<pre><code>0 0 0
+0 0 0
+0 0 0
+</code></pre><p>Operation #1: <code>addLand(0, 0)</code> turns the water at <code>grid[0][0]</code> into a land.</p>
+<pre><code>1 0 0
+0 0 0   Number of islands = 1
+0 0 0
+</code></pre><p>Operation #2: <code>addLand(0, 1)</code> turns the water at <code>grid[0][1]</code> into a land.</p>
+<pre><code>1 1 0
+0 0 0   Number of islands = 1
+0 0 0
+</code></pre><p>Operation #3: <code>addLand(1, 2)</code> turns the water at <code>grid[1][2]</code> into a land.</p>
+<pre><code>1 1 0
+0 0 1   Number of islands = 2
+0 0 0
+</code></pre><p>Operation #4: <code>addLand(2, 1)</code> turns the water at <code>grid[2][1]</code> into a land.</p>
+<pre><code>1 1 0
+0 0 1   Number of islands = 3
+0 1 0
+</code></pre><p>We return the result as an array: <code>[1, 1, 2, 3]</code></p>
+<p><strong>Note</strong>
+<code>0</code> is represented as the sea, <code>1</code> is represented as the island. If two <code>1</code> is adjacent, we consider them in the same island. We only consider <code>up/down/left/right</code> adjacent.</p>
+<blockquote>
+<p><strong>Solution</strong></p>
+</blockquote>
+<p><a href="https://www.cs.princeton.edu/~rs/AlgsDS07/01UnionFind.pdf" target="_blank">Union-find</a></p>
+<pre><code class="lang-c++"><span class="hljs-keyword">class</span> UnionFind2D {
+<span class="hljs-keyword">public</span>:
+    UnionFind2D(<span class="hljs-keyword">int</span> m, <span class="hljs-keyword">int</span> n) {
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; m * n; i++) ids.push_back(-<span class="hljs-number">1</span>);
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; m * n; i++) szs.push_back(<span class="hljs-number">1</span>);
+        M = m, N = n, cnt = <span class="hljs-number">0</span>;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">index</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span> </span>{
+        <span class="hljs-keyword">return</span> x * N + y;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">size</span><span class="hljs-params">(<span class="hljs-keyword">void</span>)</span> </span>{
+        <span class="hljs-keyword">return</span> cnt;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">id</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span> </span>{
+        <span class="hljs-keyword">if</span> (x &gt;= <span class="hljs-number">0</span> &amp;&amp; x &lt; M &amp;&amp; y &gt;= <span class="hljs-number">0</span> &amp;&amp; y &lt; N)
+            <span class="hljs-keyword">return</span> ids[index(x, y)];
+        <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">add</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span> </span>{
+        <span class="hljs-keyword">int</span> idx = index(x, y);
+        ids[idx] = idx;
+        szs[idx] = <span class="hljs-number">1</span>;
+        cnt++;
+        <span class="hljs-keyword">return</span> idx;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">root</span><span class="hljs-params">(<span class="hljs-keyword">int</span> i)</span> </span>{
+        <span class="hljs-keyword">for</span> (; i != ids[i]; i = ids[i])
+            ids[i] = ids[ids[i]];
+        <span class="hljs-keyword">return</span> i;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">find</span><span class="hljs-params">(<span class="hljs-keyword">int</span> p, <span class="hljs-keyword">int</span> q)</span> </span>{
+        <span class="hljs-keyword">return</span> root(p) == root(q);
+    }
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">unite</span><span class="hljs-params">(<span class="hljs-keyword">int</span> p, <span class="hljs-keyword">int</span> q)</span> </span>{
+        <span class="hljs-keyword">int</span> i = root(p), j = root(q);
+        <span class="hljs-keyword">if</span> (szs[i] &gt; szs[j]) swap(i, j);
+        ids[i] = j;
+        szs[j] += szs[i];
+        cnt--;
+    }
+<span class="hljs-keyword">private</span>:
+    <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; ids, szs;
+    <span class="hljs-keyword">int</span> M, N, cnt;
+};
+
+<span class="hljs-keyword">class</span> Solution {
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; numIslands2(<span class="hljs-keyword">int</span> m, <span class="hljs-keyword">int</span> n, <span class="hljs-built_in">vector</span>&lt;pair&lt;<span class="hljs-keyword">int</span>, <span class="hljs-keyword">int</span>&gt;&gt;&amp; positions) {
+        <span class="hljs-function">UnionFind2D <span class="hljs-title">islands</span><span class="hljs-params">(m, n)</span></span>;
+        <span class="hljs-built_in">vector</span>&lt;pair&lt;<span class="hljs-keyword">int</span>, <span class="hljs-keyword">int</span>&gt;&gt; dirs = { { <span class="hljs-number">0</span>, -<span class="hljs-number">1</span> }, { <span class="hljs-number">0</span>, <span class="hljs-number">1</span> }, { -<span class="hljs-number">1</span>, <span class="hljs-number">0</span> }, { <span class="hljs-number">1</span>, <span class="hljs-number">0</span> } };
+        <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; ans;
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span>&amp; pos : positions) {
+            <span class="hljs-keyword">int</span> x = pos.first, y = pos.second;
+            <span class="hljs-keyword">int</span> p = islands.add(x, y);
+            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span>&amp; d : dirs) {
+                <span class="hljs-keyword">int</span> q = islands.id(x + d.first, y + d.second);
+                <span class="hljs-keyword">if</span> (q &gt;= <span class="hljs-number">0</span> &amp;&amp; !islands.find(p, q))
+                    islands.unite(p, q);
+            }
+            ans.push_back(islands.size());
+        }
+        <span class="hljs-keyword">return</span> ans;
+    }
+};
+</code></pre>
+<p><a href="http://www.cnblogs.com/easonliu/p/4684136.html" target="_blank">another implementation</a></p>
+<pre><code class="lang-c++"><span class="hljs-comment">/**
+ * Definition for a point.
+ * struct Point {
+ *     int x;
+ *     int y;
+ *     Point() : x(0), y(0) {}
+ *     Point(int a, int b) : x(a), y(b) {}
+ * };
+ */</span>
+<span class="hljs-keyword">class</span> Solution {
+<span class="hljs-keyword">public</span>:
+    <span class="hljs-comment">/*
+     * @param n an integer
+     * @param m an integer
+     * @param operators an array of point
+     * @return an integer array
+     */</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">findFather</span><span class="hljs-params">(<span class="hljs-built_in">unordered_map</span>&lt;<span class="hljs-keyword">int</span>, <span class="hljs-keyword">int</span>&gt; &amp;father, <span class="hljs-keyword">int</span> x)</span> </span>{
+        <span class="hljs-keyword">if</span> (father.find(x) == father.end()) {
+            father[x] = x;
+            <span class="hljs-keyword">return</span> x;
+        }
+        <span class="hljs-keyword">int</span> res = x, tmp;
+        <span class="hljs-keyword">while</span> (res != father[res]) {
+            res = father[res];
+        }
+        <span class="hljs-keyword">while</span> (x != father[x]) {
+            tmp = father[x];
+            father[x] = res;
+            x = tmp;
+        }
+        <span class="hljs-keyword">return</span> x;
+    }
+    <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; numIslands2(<span class="hljs-keyword">int</span> n, <span class="hljs-keyword">int</span> m, <span class="hljs-built_in">vector</span>&lt;Point&gt;&amp; operators) {
+        <span class="hljs-comment">// Write your code here</span>
+        <span class="hljs-built_in">unordered_map</span>&lt;<span class="hljs-keyword">int</span>, <span class="hljs-keyword">int</span>&gt; father;
+        <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; res;
+        <span class="hljs-keyword">int</span> cnt = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> dx[] = {<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, -<span class="hljs-number">1</span>};
+        <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> dy[] = {<span class="hljs-number">1</span>, <span class="hljs-number">0</span>, -<span class="hljs-number">1</span>, <span class="hljs-number">0</span>};
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span> &amp;op : operators) {
+            <span class="hljs-keyword">int</span> p = op.x * m + op.y;
+            <span class="hljs-keyword">int</span> fp = findFather(father, p);
+            <span class="hljs-keyword">if</span> (fp == p) ++cnt;
+            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">4</span>; ++i) {
+                <span class="hljs-keyword">int</span> xx = op.x + dx[i], yy = op.y + dy[i];
+                <span class="hljs-keyword">if</span> (xx &lt; <span class="hljs-number">0</span> || xx &gt;= n || yy &lt; <span class="hljs-number">0</span> || yy &gt;= m) <span class="hljs-keyword">continue</span>;
+                <span class="hljs-keyword">int</span> q = (op.x + dx[i]) * m + op.y + dy[i];
+                <span class="hljs-keyword">if</span> (father.find(q) != father.end()) {
+                    <span class="hljs-keyword">int</span> fq = findFather(father, q);
+                    <span class="hljs-keyword">if</span> (fp != fq) {
+                        --cnt;
+                        father[fq] = fp;
+                    }
+                }
+            }
+            res.push_back(cnt);
+        }
+        <span class="hljs-keyword">return</span> res;
+    }
+};
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../LeetCode Locked/c1.31.html" class="navigation navigation-prev " aria-label="Previous page: Smallest Rectangle Enclosing Black Pixels"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../LeetCode Locked/c1.33.html" class="navigation navigation-next " aria-label="Next page: Range Sum Query 2D - Mutable"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
